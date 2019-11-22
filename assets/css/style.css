@@ -70,8 +70,15 @@ p{
     
 }
 #nameHeader{
-    width: fit-content;
+    /* margin: 10px; */
+    margin-bottom: 0%;
+    width: 300px;
     height: 100px;
+    text-align: center;
+    
+    vertical-align: middle;
+    line-height: 90px;  
+    
 }
 header{
     background-color: white;
