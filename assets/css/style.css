@@ -55,3 +55,6 @@ p{
 #mainPage{
     background-image: url("../images/blue-snow.png");
 }
+#nameHeader{
+    width: fit-content;
+}
