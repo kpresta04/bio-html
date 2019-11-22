@@ -3,6 +3,7 @@
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
+    text-align: right;
   }
   
   /* Style the buttons that are used to open the tab content */
@@ -14,7 +15,11 @@
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
+    text-align: right;
   }
+.tablinks{
+    text-align: right;
+}
   
   /* Change background color of buttons on hover */
   .tab button:hover {
@@ -32,6 +37,7 @@
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+    background-color: white;
   }
 h2{
     color: #4aaaa5;
@@ -40,4 +46,12 @@ h2{
 h1{
     background-color: #4aaaa5;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    color:#777777
+
+}
+#mainPage{
+    background-image: url("../images/blue-snow.png");
 }

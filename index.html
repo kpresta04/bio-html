@@ -11,20 +11,28 @@
 
 </head>
 
-<body>
+<body id="mainPage">
     <!-- Site Header -->
     <header>
         <!-- h1: The most important headline -->
-        <h1>Kellen Presta</h1>
+        <h1>Kellen Presta<div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+
+                <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+                <button class="tablinks" onclick="openTab(event, 'Portfolio')">Portfolio</button>
+
+            </div>
+        </h1>
+
     </header>
     <!-- Tab links -->
-    <div class="tab">
+    <!-- <div class="tab">
         <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
 
         <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
         <button class="tablinks" onclick="openTab(event, 'Portfolio')">Portfolio</button>
 
-    </div>
+    </div> -->
 
     <!-- Tab content -->
     <div id="About" class="tabcontent">
