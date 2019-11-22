@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Activity 1: Basic HTML Bio</title>
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- <script type="text/javascript" src="/assets/jscripts.js"></script> -->
 
 
@@ -20,12 +20,10 @@
     <!-- Tab links -->
     <div class="tab">
         <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+
         <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
         <button class="tablinks" onclick="openTab(event, 'Portfolio')">Portfolio</button>
-        <script>
-            // Get the element with id="defaultOpen" and click on it
-            document.getElementById("defaultOpen").click();
-        </script>
+
     </div>
 
     <!-- Tab content -->
@@ -78,6 +76,8 @@
             document.getElementById(tabName).style.display = "block";
             evt.currentTarget.className += " active";
         }
+        document.getElementById("defaultOpen").click();
+
     </script>
 
     <!-- Section 2: Contact Info -->

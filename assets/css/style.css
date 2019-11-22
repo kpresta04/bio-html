@@ -33,3 +33,11 @@
     border: 1px solid #ccc;
     border-top: none;
   }
+h2{
+    color: #4aaaa5;
+}
+
+h1{
+    background-color: #4aaaa5;
+    color: white;
+}
