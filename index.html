@@ -24,7 +24,7 @@
 
         </h1>
         <!-- <div id="Linkbox"> -->
-        <a class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</a>
+        <a class="tablinks" onclick="openTab(event, 'About')" id="aboutLink">About</a>
         <a class="tablinks" onclick="openTab(event, 'Contact')" id="contactLink">Contact</a>
         <a class="tablinks" onclick="openTab(event, 'Portfolio')" id="portLink">Portfolio</a>
 
@@ -37,7 +37,7 @@
 
     <!-- Tab links -->
     <!-- <div class="tab">
-        <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+        <button class="tablinks" onclick="openTab(event, 'About')" id="aboutLink">About</button>
 
         <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
         <button class="tablinks" onclick="openTab(event, 'Portfolio')">Portfolio</button>
@@ -97,7 +97,7 @@
             document.getElementById(tabName).style.display = "block";
             evt.currentTarget.className += " active";
         }
-        document.getElementById("defaultOpen").click();
+        document.getElementById("aboutLink").click();
 
     </script>
 
