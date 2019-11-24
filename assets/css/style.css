@@ -1,6 +1,6 @@
 html,body{
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 body{
      width: 100%;
@@ -12,7 +12,7 @@ body{
     flex-direction: column;
     top: 150px;
     bottom: 20px;
-    overflow: hidden;
+    overflow-x: hidden;
     margin: 0px;
 }
 
@@ -113,6 +113,7 @@ body{
     margin-top: 20px;
     flex: 1;
     overflow: hidden;
+    margin-bottom: 60px;
     /* height: 100%; */
     /* flex: 1 0 auto; */
     
@@ -132,6 +133,10 @@ body{
     width: 105%;
     overflow: hidden;
     height: 30px;
+    font-size: 8pt;
+    vertical-align: middle;
+    
+    
     
 }
 h2{
@@ -194,7 +199,8 @@ iframe{
     overflow: hidden;
 }
 #Message{
-    width: 400px;
+    width: 900px;
+    height: 300px;
 }
 
 #submitButton{
