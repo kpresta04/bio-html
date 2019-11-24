@@ -18,19 +18,19 @@ body{
 
 #aboutLink{
     position: absolute;
-    left: 940px;
+    left: 1020px;
 }
 
 #contactLink
 {
     position: absolute;
-    left: 1080px;
+    left: 1180px;
 }
 
 #portLink
 {
     position: absolute;
-    left: 1000px;
+    left: 1095px;
 }
 
 /* Style the tab */
@@ -109,7 +109,7 @@ body{
     width: 960px;
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 10%;
+    margin-left: 17%;
     margin-top: 20px;
     flex: 1;
     overflow: hidden;
@@ -170,7 +170,7 @@ p{
     width: 300px;
     height: 100px;
     text-align: center;
-    margin-left: 13.3%;
+    margin-left: 19.3%;
     vertical-align: middle;
     line-height: 110px;  
     margin-top: 50px;
