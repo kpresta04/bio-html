@@ -43,7 +43,7 @@ p {
 }
 
 #headerRow {
-  height: 4em;
+  height: 6em;
   /* display: inline-block; */
   vertical-align: middle;
 }
@@ -56,4 +56,17 @@ iframe {
   height: 100%;
   width: 100%;
   border: none;
+}
+
+#MessageBox {
+  height: 20em;
+}
+
+#SubmitButton {
+  background-color: #4aaaa5;
+  margin-top: 1em;
+}
+#headerColumn {
+  height: 4em;
+  margin-top: 2em;
 }
