@@ -21,9 +21,6 @@ html {
   margin-top: 1em;
 } */
 
-#selfPic {
-  padding-left: 10px;
-}
 h1 {
   background-color: #4aaaa5;
   height: 100%;
@@ -32,10 +29,22 @@ h1 {
   /* padding-top: 1em; */
   color: white;
   font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
 }
 h2 {
   color: #4aaaa5;
   font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  margin-left: 1rem;
+  padding-top: 2rem;
+}
+
+h3 {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  /* margin-left: 1rem; */
+  padding-top: 1rem;
+  color: #4aaaa5;
 }
 p {
   color: #777777;
@@ -69,4 +78,7 @@ iframe {
 #headerColumn {
   height: 4em;
   margin-top: 2em;
+}
+hr {
+  width: 97%;
 }
