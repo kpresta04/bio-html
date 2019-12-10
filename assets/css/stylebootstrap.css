@@ -95,6 +95,18 @@ h4 {
 #sticky-footer {
   flex-shrink: 0;
   background-color: #666666;
-  border-top: 6em !important;
-  border-color: #4aaaa5;
+  border-top: 0.5em solid #4aaaa5;
+  height: 2em;
+  /* position: fixed; */
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: -1px;
+}
+
+.col {
+  padding-right: 0px;
+}
+
+#middleColumn {
+  /* padding-right: 0; */
 }
