@@ -82,14 +82,16 @@ iframe {
 hr {
   width: 97%;
 }
-h4 {
+.ImgCaption {
   color: white;
   background-color: #4aaaa5;
-  position: absolute;
-  top: 75%;
-  width: 70%;
-  overflow: hidden;
   font-weight: bold;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+
+  text-align: center;
 }
 
 #sticky-footer {
