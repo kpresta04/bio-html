@@ -78,6 +78,7 @@ iframe {
 #headerColumn {
   height: 4em;
   margin-top: 2em;
+  margin-left: 10%;
 }
 hr {
   width: 97%;
@@ -111,4 +112,9 @@ hr {
   padding-right: 0;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+#navBar {
+  /* position: absolute; */
+  /* left: 50%; */
 }
